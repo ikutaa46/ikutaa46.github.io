@@ -13,7 +13,7 @@ error_reporting (E_ALL ^ E_NOTICE);
 
 $sitetitle = "Link Protector";
 $siteslogan = "Protecting your links!";
-$scripturl = "https://www.ikuta46.ga/"; // URL ENDING WITH A SLASH
+$scripturl = "https://ikutaa46.github.io/"; // URL ENDING WITH A SLASH
 
 // Short URL
 

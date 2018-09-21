@@ -1,0 +1,4 @@
+<Files *.dlp>
+order allow,deny
+deny from all
+</Files>

@@ -1,0 +1,123 @@
+/* This CSS Stylesheet was not created by DaddyScripts */
+/* nor does it belong to DaddyScripts. 		      */
+
+/* GLOBAL ELEMENTS */
+html,body {
+   margin: 0; padding: 0;
+   background: #0b1933;
+   font-size: 100%;
+   font-family: "trebuchet ms", arial, verdana;
+	color: #444;
+   text-align: center;
+}
+a {
+   color: #EF7B0A;
+   text-decoration:none; 
+}
+a:hover {
+   text-decoration: underline;
+}
+p {
+   color: #444;
+   line-height: 170%; margin: 5px 0;
+}
+p, td, th, ul {
+   font-size: 80%;
+}
+
+/* LAYOUT */
+#wrapper {
+   width: 800px;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
+
+#content {
+   background: #fff;
+   border-top: 3px solid #ce6c1c;
+   border-bottom: 3px solid #ce6c1c;
+   padding: 20px;
+}
+
+/* ELEMENTS */
+h1 {
+   font: 250% "trebuchet ms";
+   color: #fff;
+}
+h1 span { color: #6BAD42; }
+h1 a { color: #FFF; }
+h1 a:hover { color: #6BAD42;  text-decoration: none;}
+h1 a:hover span { color: #FFF;}
+h2 {
+   font: bold 100% arial, verdana, sans-serif;
+   color: #3B578B;
+}
+#footer {
+   margin: 10px 0 0 0; 
+   font-size: 80%;
+   color: #ccc;
+}
+#nav li {
+   padding: 0 5px 0 5px;
+   display: inline;
+   border-left: 1px solid #ccc;
+}
+.left {
+   float: left;
+}
+
+/* TABLES USED IN COOKIE MANAGEMENT / EDIT BROWSER PAGES */
+table {
+   border-color: #666;
+   border-width: 0 0 1px 1px;
+   border-style: solid;
+   width: 100%;
+}
+th {
+   font-size: normal;
+   background: #ccc;
+   border-width: 2px;
+}
+td, th {
+   border-color: #666;
+   border-width: 1px 1px 0 0;
+   border-style: solid;
+   padding: 2px 10px 2px 10px;
+}
+td {background: #eee;}
+.full-width {
+   width: 98%;
+}
+
+.notice {
+    background: #FFF6BF;
+    color: #817134;
+    border-color: #FFD324;
+}
+
+.success {
+
+  background: #E6EFC2;
+  color: #529214;
+  border-color: #C6D880;
+}
+
+.error {
+  background: #FBE3E4; 
+  color: #D12F19; 
+  border-color: #FBC2C4;
+}
+
+#email {
+  display: none;
+}
+
+#imgId {
+    /* Set the width dynamically depending on the width of the browser window */
+    width:100%;
+    /* dont enlarge the image more, than its initial resolution */
+    max-width:700px;
+    max-height:autopx;
+    /* Set the height dynamically depending on the image's current width, keeping the aspect ratio */
+    height:auto;
+}

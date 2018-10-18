@@ -6,14 +6,11 @@ require('config.php');
 <html>
 <head>
 <title><?php echo $sitetitle ." - " .$siteslogan; ?></title>
-<meta name="description" content="<?php echo $sitetitle; ?> is a free service offering link protection to avoid any 
-links being indexed by spiders and eventually being listed on search engines. 
-Recently, it has been a known fact that some File Hosters have been using 
-private spiders (bots) to track certain file names and delete them immediately 
-without verification, even if the file never contained illegal content, just to 
-avoid any law suits against them.">
-<meta name="keywords" content="link protector, hide link, protect link, free link protecting, protect my links">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="<?php echo $sitetitle; ?> .">
+<meta name="keywords" content="protect my links">
 <link rel="stylesheet" type="text/css" href="./css/blue.css">
+<link rel="icon" type="image/x-icon" href="./img/favicon.ico" />
 <script type="text/javascript" src="./css/jquery-1.4.2.min.js"></script>
 </head>
 <body>
@@ -25,9 +22,9 @@ avoid any law suits against them.">
    
       <div id="content">
          <ul id="nav">
-		 <!--
-            <li class="left"><a href="./">Home</a></li>
-            
+		 
+            <li class="left"><a href="https://blog.ikuta46.ga/">My Blog</a></li>
+         <!--   
 			<li class="left"><a href="./top.php">Top 10 Links</a></li>
 	     <li class="left"><a href="./terms.php">Terms of Use & Privacy</a></li>
 	     <li class="left"><a href="./aboutus.php">About Us</a></li>

@@ -82,15 +82,14 @@ if ($_GET['ID'] == "") {
       <input name="pass" type="password" size="20" />
     </div>
 <p align="center">
-<BR>Password Protected Links?* Yes <input onclick="javascript: $('#email').show('slow');" type="radio" name="R2" value="V3" />  No
+<BR>Password Protected?* Yes <input onclick="javascript: $('#email').show('slow');" type="radio" name="R2" value="V3" />  No
 <input onclick="javascript: $('#email').hide('slow');" type="radio" name="R2" value="V4" checked /><br>
 <br>
 <p align="center">
 <INPUT TYPE="submit" NAME="submit" VALUE="Create Protected Links!"><BR>
 </p>
 </fieldset> 
-*If a password isn't inputted, a captcha will be displayed before showing the 
-links to prevent the links from being spidered.<BR>
+
 </p>
 <?
 } else {
@@ -187,10 +186,7 @@ links to prevent the links from being spidered.<BR>
 <form method="POST" action="<?php
                 echo $_SERVER['php_SELF'];
 ?>">
-        <p align="center"><font face="Arial">Captcha Check:</font></p>
-        <p align="left"><font face="Arial">*If the uploader has not chosen to 
-        password-protected their links, then we include a captcha check to avoid 
-        the links from being indexed by spiders.</font></p>
+        
         <p align="center">
         <img src="CaptchaSecurityImages.php?width=100&height=40&characters=5" /><br />
         <label for="security_code">Security Code: </label><input id="security_code" name="security_code" type="text" /><br />
@@ -246,7 +242,7 @@ links to prevent the links from being spidered.<BR>
             }
         }
     } else {
-        echo "<div class=\"error\"><img src=\"./img/error.png\">The ID was not found, please double check your ID. However, the ID may have been deleted as per request from the uploader.</div>";
+        echo "<div class=\"error\"><img src=\"./img/error.png\">The ID was not found.</div>";
 ?>
 
     
